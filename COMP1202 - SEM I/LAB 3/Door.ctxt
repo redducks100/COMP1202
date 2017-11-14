@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Door
+comment0.text=\r\n\ A\ door\ with\ an\ optional\ card\ lock.\r\n\ Lab\ 3\ COMP1202.\r\n\ @author\ systjeh\r\n
+comment1.params=
+comment1.target=Door()
+comment1.text=\r\n\ Construct\ a\ new\ Door\ (to\ nowhere)\ with\ no\ lock.\r\n
+comment2.params=name
+comment2.target=void\ setRoomName(java.lang.String)
+comment2.text=\r\n\ Set\ the\ name\ of\ the\ room\ that\ this\ door\ is\ attached\ to.\r\n
+comment3.params=lock
+comment3.target=void\ attachLock(CardLock)
+comment3.text=\r\n\ Set\ the\ lock\ that\ is\ attached\ to\ this\ door.\r\n
+comment4.params=
+comment4.target=void\ openDoor()
+comment4.text=\r\n\ A\ method\ that\ attempts\ to\ open\ the\ door.\r\n
+numComments=5

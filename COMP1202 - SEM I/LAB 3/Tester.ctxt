@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Tester
+comment0.text=\r\n\ Test\ harness\ for\ COMP1202\ Lab\ 3.\r\n\ @author\ systjeh\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ testPart1a()
+comment3.params=
+comment3.target=void\ testPart1b()
+comment4.params=
+comment4.target=void\ testPart1c()
+comment5.params=
+comment5.target=void\ testPart2a()
+comment6.params=
+comment6.target=void\ testPart2b()
+comment7.params=
+comment7.target=void\ testPart2c()
+comment8.params=
+comment8.target=void\ testPart3()
+numComments=9
