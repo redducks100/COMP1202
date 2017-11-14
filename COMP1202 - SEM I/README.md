@@ -1,2 +1,2 @@
-# COMP1202
+# COMP1202 - SEM I
 Lab work
