@@ -1,5 +1,8 @@
 public class TestCalculator
 {
+	/**
+	 * @return true if the parser passed all tests
+	 */
 	public boolean testParser()
 	{
 		Calculator calculator = new Calculator();
@@ -42,6 +45,9 @@ public class TestCalculator
 		return passed;
 	}
 	
+	/**
+	 * @return true if the calculator passed the add tests
+	 */
 	public boolean testAdd()
 	{
 		Calculator calculator = new Calculator();
@@ -76,6 +82,9 @@ public class TestCalculator
 		return passed;
 	}
 	
+	/**
+	 * @return true if the calculator passed the multiplication tests
+	 */
 	public boolean testMultiplication()
 	{
 		Calculator calculator = new Calculator();

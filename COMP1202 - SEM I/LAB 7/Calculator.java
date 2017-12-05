@@ -5,27 +5,25 @@ public class Calculator {
         * If the string does not contain a valid format returns null.
         */
         public Double x(String x){
-        		String[] parsedString = x.split(" ");
-        		
-        		if(parsedString.length != 3)
+			
+        		if(x.split(" ").length != 3)
         		{
         			return null;
         		}
         		
         		try {
-        			this.x = Double.parseDouble(parsedString[0]);
+        			this.x = Double.parseDouble(x.split(" ")[0]);
         		}
         		catch(Exception e)
         		{
         			return null;
         		}
         		
-        		switch(parsedString[1])
+        		switch(x.split(" ")[1])
         		{
         			case "+":
         				try {
-        					Double secondDouble = Double.parseDouble(parsedString[2]);
-        					return x(secondDouble);
+        					return x(new Double(Double.parseDouble(x.split(" ")[2])));
         				}
         				catch(Exception e)
         				{
@@ -33,8 +31,7 @@ public class Calculator {
         				}
         			case "x":
         				try {
-        					Double secondDouble = Double.parseDouble(parsedString[2]);
-        					return x(secondDouble.doubleValue());
+        					return x(Double.parseDouble(x.split(" ")[2]));
         				}
         				catch(Exception e)
         				{
